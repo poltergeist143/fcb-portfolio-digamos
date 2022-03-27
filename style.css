@@ -1,0 +1,60 @@
+/*
+		comment is ctrl shift /
+
+		CSS Syntax
+		*{
+			property:  value;
+		}
+*/
+* {
+	font-family: "Roboto", sans-serif;
+}
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+img {	
+	height: 250px;
+	width: 250px;
+}
+#landing {
+	/*vh = viewport height - measurement based on the height of the web 
+	page and the  device youre currently viewing the page in*/
+
+	height: 80vh;
+	display: flex;
+	/*Arrange contents of an element with flex as a column*/
+	flex-direction: column;
+	/*center all contents of an element with flex as a column horizontally*/
+	align-items: center;
+	/*center all contents of an element with flex as a column vertically*/
+	justify-content: center;
+}
+#gallery {
+	height: 75vh;
+	/*center the contents of #gallery section horizontally and vertically 
+	using flex*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+h2 {
+	color: #007bff;
+}
+	/*dot for class | hastag for id | *for all */
+.tools {
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	height: 200px;
+	/*the width of this element is at least 75% of its parent element*/
+	width: 75%;
+}
+html {
+	scroll-behavior: smooth;
+}
